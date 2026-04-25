@@ -1,5 +1,7 @@
 # Rapport de progression — Semaine 1
-📅 Semaine du 13/04 au 17/04
+**Projet** : Système Multi-Agents de Service Client  
+**Entreprise** : Vala Orange — Agadir, Maroc  
+**Date** : Semaine du 13/04 au 17/04
 
 Objectif du projet: Le projet vise à développer un système intelligent capable d’automatiser et d’améliorer le service client d’une entreprise, en offrant des réponses rapides, fiables et sécurisées aux utilisateurs, tout en réduisant la charge du support humain.
 
