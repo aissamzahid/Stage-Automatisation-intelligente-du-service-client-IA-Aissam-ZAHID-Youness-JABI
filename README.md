@@ -23,7 +23,7 @@ Le système est basé sur une **architecture multi-agents**, où chaque agent po
 
 **Vala Orange** — Agence SEO & Solutions Digitales  
 📍 Agadir, Maroc  
-🌐 [vala-orange.com](https://vala-orange.com)
+🌐 [vala-orange.com](https://vala-orange.com/)
 
 ---
 > 📬 Pour toute question sur le projet, consulter les rapports hebdomadaires dans [`progress/`](./progress/)
