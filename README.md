@@ -1,43 +1,29 @@
-# Stage-Automatisation-intelligente-du-service-client-IA-Aissam-ZAHID-Youness-JABI
-Bonjour Monsieur Neuman,
-Veuillez trouver ci-dessous le rapport de ma semaine de stage :
+# 🤖 Système Multi-Agents de Service Client
 
-📅 Semaine du 13/04 au 17/04
+> Projet de stage — Vala Orange, Agadir, Maroc  
+> Développement d'un système intelligent multi-agents pour l'automatisation du service client.
 
-Objectif du projet:
-  Le projet vise à développer un système intelligent capable d’automatiser et d’améliorer le service client d’une entreprise, en offrant des réponses rapides, fiables et sécurisées aux utilisateurs, tout en réduisant la charge du support humain.
 
-Description générale du système
-Le système sera basé sur une architecture multi-agents, où chaque agent possède un rôle spécifique :
+##  Description
 
-- Agent Conversationnel (LLM)
-  Dialogue avec les clients 
-  Comprend les questions en langage naturel
-  Produit des réponses claires et professionnelles
-- Agent de Classification
-  Identifie le type de demande (réclamation, information, support, devis…)
-  Oriente la requête vers le bon agent
-- Agent de Recherche (RAG)
-  Accède à la base de connaissances (FAQ, documents internes, policies)
-  Fournit des réponses fiables basées sur des données réelles
-- Agent de Décision
-  Décide si la requête peut être traitée automatiquement
-  Ou doit être escaladée vers un agent humain
-- Agent d’Apprentissage
-  Analyse les feedbacks utilisateurs
-  Améliore progressivement les performances via fine-tuning et optimisation des prompts
-- Agents de Sécurité et de Contrôle
-  Protection des données sensibles des clients
-  Respect des politiques de l’entreprise
-  Détection des demandes suspectes ou malveillantes
-  Prévention des hallucinations (éviter les réponses inventées)
-  Contrôle du périmètre des conversations et arrêt si hors sujet
+Ce projet vise à développer un système intelligent capable d'automatiser et d'améliorer le service client de **Vala Orange**, en offrant des réponses rapides, fiables et sécurisées, tout en réduisant la charge du support humain.
 
-Technologies envisagées
-  Python (FastAPI / Flask)
-  LLM (Open Source ou API)
-  RAG (FAISS / ChromaDB)
-  Fine-tuning du modèle sur des données de service client
-  Base de données MySQL / PostgreSQL
-🔄 EN COURS
-Nous sommes en train de chercher des datasets appropie pour le projet.
+Le système est basé sur une **architecture multi-agents**, où chaque agent possède un rôle spécifique et communique via un orchestrateur central.
+
+##  Architecture — Les 6 Agents
+
+| **Agent Conversationnel** | Dialogue en langage naturel avec les clients (FR / AR / Darija) |
+| **Agent de Classification** | Identifie le type de demande et oriente vers le bon agent |
+| **Agent RAG** | Recherche dans la base de connaissances (FAQ, documents internes) |
+| **Agent de Décision** | Traitement automatique ou escalade vers un agent humain |
+| **Agent d'Apprentissage** | Analyse les feedbacks et améliore les performances |
+| **Agents Sécurité & Contrôle** | Protection des données, anti-hallucination, contrôle du périmètre |
+
+##  Entreprise d'accueil
+
+**Vala Orange** — Agence SEO & Solutions Digitales  
+📍 Agadir, Maroc  
+🌐 [vala-orange.com](https://vala-orange.com)
+
+---
+> 📬 Pour toute question sur le projet, consulter les rapports hebdomadaires dans [`progress/`](./progress/)
